@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LIRA AI</title>
+    <title>Good Guy $GGUY</title>
     <link rel="icon" type="image/x-icon" href="img/1.jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -243,47 +243,54 @@
                 gap: 15px;
             }
         }
+        .socials {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .socials a {
+            color: #ffffff;
+            font-size: 1.8rem;
+            transition: transform 0.3s;
+        }
+
+        .socials a:hover {
+            transform: scale(1.3);
+        }
     </style>
 </head>
 
 <body>
     <div class="header">
-        <div class="logos">
-            <a href="https://x.com/LiraAIPortal"><img src="https://www.freepnglogos.com/uploads/twitter-x-logo-png/twitter-x-logo-png-9.png"
-                    width="50px"></a>
-            <a href="https://t.me/LiraAIPortal"><img src="https://logodownload.org/wp-content/uploads/2017/11/telegram-logo-8.png"
-                    width="50px"></a>
-            <a href="https://pump.fun/board"><img
-                    src="https://static.vecteezy.com/system/resources/previews/021/819/342/non_2x/fun-green-pill-free-png.png"
-                    width="50px"></a>
-        </div>
-        <h1>LIRA AI</h1>
-        <img src="img/1.webp" alt="Box 1" width="20%">
+        <h1>GOOD GUY</h1>
+        <img src="img/softlogo.gif" alt="Box 1" width="50%">
     </div>
 
     <div class="boxes">
         <div class="box" onclick="openFullPage('launch')">
-            <img src="img/1.webp" alt="Box 1">
+            <img src="img/1.jpg" alt="Box 1">
             <div class="content">Launch</div>
         </div>
         <div class="box" onclick="openFullPage('roadmap')">
-            <img src="img/2.webp" alt="Box 2">
+            <img src="img/2.jpg" alt="Box 2">
             <div class="content">How To Buy</div>
         </div>
         <div class="box" onclick="openFullPage('teconomic')">
-            <img src="img/3.webp" alt="Box 3">
-            <div class="content">Teconomic</div>
+            <img src="img/3.jpg" alt="Box 3">
+            <div class="content">TOKENOMICS</div>
         </div>
         <div class="box" onclick="openFullPage('about')">
-            <img src="img/4.webp" alt="Box 4">
+            <img src="img/4.jpg" alt="Box 4">
             <div class="content">About</div>
         </div>
     </div>
 
     <div id="launch" class="full-page">
         <h2>LIRA</h2>
-        <img src="img/1.webp" alt="Box 1" width="20%">
-        <p>BUY NOW!!!</p>
+        <img src="img/1.jpg" alt="Box 1" width="20%">
+        <p>Trade On Pump.fun</p>
         <p>CA: <span id="ca-text">XXXXXXXXXXXXXXXXX</span></p>
         <button class="copy-button" onclick="copyToClipboard()">COPY CA</button>
         <a href="#" class="back-button" onclick="closeFullPage()">Back</a>
@@ -291,7 +298,7 @@
 
     <div id="roadmap" class="full-page">
         <h2>How To Buy</h2>
-        <img src="img/2.webp" alt="Box 1" width="20%">        
+        <img src="img/2.jpg" alt="Box 1" width="20%">        
         <p>1. Download Phantom Wallet</p>
         <p>2. Buy Solana On Your CEX</p>
         <p>3. Trade On Pump.fun</p>
@@ -300,9 +307,9 @@
 
     <div id="teconomic" class="full-page">
         <h2>Tokenomics</h2>
-        <img src="img/3.webp" alt="Box 1" width="20%">
-        <p>Token Name = LIRA AI</p>
-        <p>TICKER = $LIRA</p>
+        <img src="img/3.jpg" alt="Box 1" width="20%">
+        <p>Token Name = Good Guy</p>
+        <p>TICKER = $GGUY</p>
         <p>TOTAL SUPPLY = 1,000,000,000</p>
         <p>LIQUIDITY POOL BURNED = 100%</p>
         <p>TAXES = 0%</p>
@@ -311,9 +318,15 @@
 
     <div id="about" class="full-page">
         <h2>About</h2>
-        <img src="img/4.webp" alt="Box 1" width="20%">
-        <p>LIRA is an advanced AI agent designed to create harmony between technology and human needs.</p>
+        <img src="img/4.jpg" alt="Box 1" width="20%">
+        <p>Good Guy $GGUY is a reliable and intelligent AI agent designed to assist, simplify, and enhance your daily life</p>
         <a href="#" class="back-button" onclick="closeFullPage()">Back</a>
+    </div>
+
+    <div class="socials">
+        <a href="https://x.com/SoyaAIOfficial">Twitter</a>
+        <a href="https://t.me/SoyaAISOL">Telegram</a>
+        <a href="https://pump.fun/board">Pump.fun</a>
     </div>
 
     <script>
